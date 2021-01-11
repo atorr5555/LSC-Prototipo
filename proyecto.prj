@@ -1,0 +1,52 @@
+<deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
+  <configuration file="/home/atorr55/Documents/proyecto-sist-com/proyecto.prj" location="/home/atorr55/Documents/proyecto-sist-com" name="proyecto" target="target.webdeploy" target-name="Web App Compiler">
+    <param.appname>proyecto</param.appname>
+    <param.intermediate>${PROJECT_ROOT}/proyecto</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/proyecto</param.files.only>
+    <param.output />
+    <param.checkbox>false</param.checkbox>
+    <param.logdir>${PROJECT_ROOT}/proyecto</param.logdir>
+    <param.target.type>subtarget.web.app</param.target.type>
+    <param.user.defined.mcr.options />
+    <param.support.packages />
+    <unset>
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.checkbox />
+      <param.logdir />
+      <param.target.type />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+    </unset>
+    <fileset.web.main>
+      <file>${PROJECT_ROOT}/proyecto.mlapp</file>
+    </fileset.web.main>
+    <fileset.resources />
+    <fileset.depfun />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}/proyecto" name="proyecto.ctf" optional="false">/home/atorr55/Documents/proyecto-sist-com/proyecto/proyecto.ctf</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/home/atorr55/MATLAB/R2020b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>5.4.0-60-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
